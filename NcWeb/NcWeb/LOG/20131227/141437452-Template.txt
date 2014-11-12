@@ -1,0 +1,82 @@
+20131227141437452发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227141338897&SendTime=20131227141434207
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227141338897&Cert=&reqData=<?xml version="1.0" encoding="gb2312"?>
+<CMS>
+  <eb>
+    <pub>
+      <TransCode>PAYENT</TransCode>
+      <CIS>140890000472038</CIS>
+      <BankCode>102</BankCode>
+      <ID>jmwtest.y.1408</ID>
+      <TranDate>20131227</TranDate>
+      <TranTime>141338900</TranTime>
+      <fSeqno>20131227141338897</fSeqno>
+    </pub>
+    <in>
+      <OnlBatF>1</OnlBatF>
+      <SettleMode>0</SettleMode>
+      <TotalNum>1</TotalNum>
+      <TotalAmt>5000</TotalAmt>
+      <SignTime>20131227141338899</SignTime>
+      <rd>
+        <iSeqno>1</iSeqno>
+        <PayType>1</PayType>
+        <PayAccNo>1408010919007004567</PayAccNo>
+        <PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN>
+        <RecAccNo>0200000519024549712</RecAccNo>
+        <RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN>
+        <SysIOFlg>1</SysIOFlg>
+        <IsSameCity>1</IsSameCity>
+        <RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName>
+        <CurrType>001</CurrType>
+        <PayAmt>5000</PayAmt>
+      </rd>
+    </in>
+  </eb>
+</CMS>
+
+20131227141437452银行返回内容：
+reqData=PD94bWwgIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IkdCSyIgPz4KPENNUz4KPGViPgo8cHViPgo8
+VHJhbnNDb2RlPlBBWUVOVDwvVHJhbnNDb2RlPgo8Q0lTPjE0MDg5MDAwMDQ3MjAzODwvQ0lTPgo8
+QmFua0NvZGU+MTAyPC9CYW5rQ29kZT4KPElEPmptd3Rlc3QueS4xNDA4PC9JRD4KPFRyYW5EYXRl
+PjIwMTMxMjI3PC9UcmFuRGF0ZT4KPFRyYW5UaW1lPjE0MTMzODkwMDwvVHJhblRpbWU+CjxmU2Vx
+bm8+MjAxMzEyMjcxNDEzMzg4OTc8L2ZTZXFubz4KPFNlcmlhbE5vPjwvU2VyaWFsTm8+CjxSZXRD
+b2RlPkQwMDg5PC9SZXRDb2RlPgo8UmV0TXNnPnhtbL3isPy07c7zIUZhaWxlZCB0byB1bmZvcm1h
+dCBkYXRhIQpUYWduYW1lPVJlcVJlc2VydmVkMQpJbnB1dD0mbHQ7cmQmZ3Q7ICAgICAgICAmbHQ7
+aVNlcW5vJmd0OzEmbHQ7L2lTZXFubyZndDsgICAgICAgICZsdDtQYXlUeXBlJmd0OzEmbHQ7L1Bh
+eVR5cGUmZ3Q7ICAgICAgICAmbHQ7UGF5QWNjTm8mZ3Q7MTQwODAxMDkxOTAwNzAwNDU2NyZsdDsv
+UGF5QWNjTm8mZ3Q7ICAgICAgICAmbHQ7UGF5QWNjTmFtZUNOJmd0O9S8wKfW5LTFscjNwLfIzP3G
+qCZsdDsvUGF5QWNjTmFtZUNOJmd0OyAgICAgICAgJmx0O1JlY0FjY05vJmd0OzAyMDAwMDA1MTkw
+MjQ1NDk3MTImbHQ7L1JlY0FjY05vJmd0OyAgICAgICAgJmx0O1JlY0FjY05hbWVDTiZndDvUvMCn
+1uS0xbHIzcC3yMz9xqi4tN/VtqbM/caoJmx0Oy9SZWNBY2NOYW1lQ04mZ3Q7ICAgICAgICAmbHQ7
+U3lzSU9GbGcmZ3Q7MSZsdDsvU3lzSU9GbGcmZ3Q7ICAgICAgICAmbHQ7SXNTYW1lQ2l0eSZndDsx
+Jmx0Oy9Jc1NhbWVDaXR5Jmd0OyAgICAgICAgJmx0O1JlY0JhbmtOYW1lJmd0O9bQufq5pMnM0vjQ
+0CZsdDsvUmVjQmFua05hbWUmZ3Q7ICAgICAgICAmbHQ7Q3VyclR5cGUmZ3Q7MDAxJmx0Oy9DdXJy
+VHlwZSZndDsgICAgICAgICZsdDtQYXlBbXQmZ3Q7NTAwMCZsdDsvUGF5QW10Jmd0OyAgICAgICZs
+dDsvcmQmZ3Q7ICAgICZsdDsvaW4mZ3Q7ICAmbHQ7L2ViJmd0OyZsdDsvQ01TJmd0OzwvUmV0TXNn
+Pgo8L3B1Yj4KPC9lYj4KPC9DTVM+Cg==
+
+银行返回内容明文：
+<?xml  version="1.0" encoding="GBK" ?>
+<CMS>
+<eb>
+<pub>
+<TransCode>PAYENT</TransCode>
+<CIS>140890000472038</CIS>
+<BankCode>102</BankCode>
+<ID>jmwtest.y.1408</ID>
+<TranDate>20131227</TranDate>
+<TranTime>141338900</TranTime>
+<fSeqno>20131227141338897</fSeqno>
+<SerialNo></SerialNo>
+<RetCode>D0089</RetCode>
+<RetMsg>xml解包错误!Failed to unformat data!
+Tagname=ReqReserved1
+Input=&lt;rd&gt;        &lt;iSeqno&gt;1&lt;/iSeqno&gt;        &lt;PayType&gt;1&lt;/PayType&gt;        &lt;PayAccNo&gt;1408010919007004567&lt;/PayAccNo&gt;        &lt;PayAccNameCN&gt;约困咒磁比屠啡听屁&lt;/PayAccNameCN&gt;        &lt;RecAccNo&gt;0200000519024549712&lt;/RecAccNo&gt;        &lt;RecAccNameCN&gt;约困咒磁比屠啡听屁复哒鼎听屁&lt;/RecAccNameCN&gt;        &lt;SysIOFlg&gt;1&lt;/SysIOFlg&gt;        &lt;IsSameCity&gt;1&lt;/IsSameCity&gt;        &lt;RecBankName&gt;中国工商银行&lt;/RecBankName&gt;        &lt;CurrType&gt;001&lt;/CurrType&gt;        &lt;PayAmt&gt;5000&lt;/PayAmt&gt;      &lt;/rd&gt;    &lt;/in&gt;  &lt;/eb&gt;&lt;/CMS&gt;</RetMsg>
+</pub>
+</eb>
+</CMS>
+
+

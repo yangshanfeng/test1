@@ -1,0 +1,36 @@
+20131227114007032发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227113942021&SendTime=20131227113942026
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227113942021&Cert=&reqData=<?xml version="1.0" encoding="gbk"?><CMS><eb><pub><TransCode>PAYENT</TransCode><CIS>140890000472038</CIS><BankCode>102</BankCode><ID>jmwtest.y.1408</ID><TranDate>交易日期</TranDate><TranTime>交易时间</TranTime><fSeqno>20131227113942021</fSeqno></pub><in><OnlBatF>联机批量标志</OnlBatF><SettleMode>入账方式</SettleMode><TotalNum>总笔数</TotalNum><TotalAmt>总金额</TotalAmt><SignTime>签名时间</SignTime><ReqReserved1>请求备用字段1</ReqReserved1><ReqReserved2>请求备用字段2</ReqReserved2><rd><rd><iSeqno>1</iSeqno><ReimburseNo></ReimburseNo><ReimburseNum></ReimburseNum><StartDate></StartDate><StartTime></StartTime><PayType>1</PayType><PayAccNo>1408010919007004567</PayAccNo><PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN><PayAccNameEN></PayAccNameEN><RecAccNo>0200000519024549712</RecAccNo><RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN><RecAccNameEN></RecAccNameEN><SysIOFlg>1</SysIOFlg><IsSameCity>1</IsSameCity><Prop></Prop><RecICBCCode></RecICBCCode><RecCityName></RecCityName><RecBankNo></RecBankNo><RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName><CurrType>001</CurrType><PayAmt>5000</PayAmt><UseCode></UseCode><UseCN></UseCN><EnSummary></EnSummary><PostScript></PostScript><Summary></Summary><Ref></Ref><Oref></Oref><ERPSqn></ERPSqn><BusCode></BusCode><ERPcheckno></ERPcheckno><CrvouhType></CrvouhType><CrvouhName></CrvouhName><CrvouhNo></CrvouhNo><ReqReserved3></ReqReserved3><ReqReserved4></ReqReserved4></rd></rd></in></eb></CMS>
+
+20131227114007032银行返回内容：
+reqData=PD94bWwgIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IkdCSyIgPz4KPENNUz4KPGViPgo8cHViPgo8
+VHJhbnNDb2RlPlBBWUVOVDwvVHJhbnNDb2RlPgo8Q0lTPjE0MDg5MDAwMDQ3MjAzODwvQ0lTPgo8
+QmFua0NvZGU+MTAyPC9CYW5rQ29kZT4KPElEPmptd3Rlc3QueS4xNDA4PC9JRD4KPFRyYW5EYXRl
+Pj8/Pz88L1RyYW5EYXRlPgo8VHJhblRpbWU+Pz8/PzwvVHJhblRpbWU+CjxmU2Vxbm8+MjAxMzEy
+MjcxMTM5NDIwMjE8L2ZTZXFubz4KPFNlcmlhbE5vPjwvU2VyaWFsTm8+CjxSZXRDb2RlPkQwMDg5
+PC9SZXRDb2RlPgo8UmV0TXNnPnhtbL3isPy07c7zIVRoZSBsZW5ndGggaXMgb3V0IG9mIHJhbmdl
+LCZsdDtPbmxCYXRGJmd0Oz8/Pz8/PyZsdDsvT25sQmF0RiZndDs8L1JldE1zZz4KPC9wdWI+Cjwv
+ZWI+CjwvQ01TPgo=
+
+银行返回内容明文：
+<?xml  version="1.0" encoding="GBK" ?>
+<CMS>
+<eb>
+<pub>
+<TransCode>PAYENT</TransCode>
+<CIS>140890000472038</CIS>
+<BankCode>102</BankCode>
+<ID>jmwtest.y.1408</ID>
+<TranDate>????</TranDate>
+<TranTime>????</TranTime>
+<fSeqno>20131227113942021</fSeqno>
+<SerialNo></SerialNo>
+<RetCode>D0089</RetCode>
+<RetMsg>xml解包错误!The length is out of range,&lt;OnlBatF&gt;??????&lt;/OnlBatF&gt;</RetMsg>
+</pub>
+</eb>
+</CMS>
+
+

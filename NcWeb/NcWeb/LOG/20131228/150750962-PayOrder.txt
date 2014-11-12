@@ -1,0 +1,72 @@
+20131228150750962发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131228150729033&SendTime=20131228150750962
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131228150729033&Cert=&reqData=<?xml version="1.0" encoding="gb2312"?>
+<CMS>
+  <eb>
+    <pub>
+      <TransCode>PAYENT</TransCode>
+      <CIS>140890000472038</CIS>
+      <BankCode>102</BankCode>
+      <ID>jmwtest.y.1408</ID>
+      <TranDate>20131228</TranDate>
+      <TranTime>150729043</TranTime>
+      <fSeqno>20131228150729033</fSeqno>
+    </pub>
+    <in>
+      <OnlBatF>1</OnlBatF>
+      <SettleMode>0</SettleMode>
+      <TotalNum>1</TotalNum>
+      <TotalAmt>5000</TotalAmt>
+      <SignTime>20131228150729044</SignTime>
+      <ReqReserved1 />
+      <ReqReserved2 />
+      <rd>
+        <iSeqno>1</iSeqno>
+        <ReimburseNo />
+        <ReimburseNum />
+        <StartDate />
+        <StartTime />
+        <PayType>1</PayType>
+        <PayAccNo>1408010919007004567</PayAccNo>
+        <PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN>
+        <PayAccNameEN />
+        <RecAccNo>0200000519024549712</RecAccNo>
+        <RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN>
+        <RecAccNameEN />
+        <SysIOFlg>1</SysIOFlg>
+        <IsSameCity>1</IsSameCity>
+        <Prop />
+        <RecICBCCode />
+        <RecCityName />
+        <RecBankNo />
+        <RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName>
+        <CurrType>001</CurrType>
+        <PayAmt>5000</PayAmt>
+        <UseCode />
+        <UseCN />
+        <EnSummary />
+        <PostScript />
+        <Summary />
+        <Ref />
+        <Oref />
+        <ERPSqn />
+        <BusCode />
+        <ERPcheckno />
+        <CrvouhType />
+        <CrvouhName />
+        <CrvouhNo />
+        <ReqReserved3 />
+        <ReqReserved4 />
+      </rd>
+    </in>
+  </eb>
+</CMS>
+
+20131228150750962银行返回内容：
+errorCode=RDAwOTg=
+
+银行返回内容明文：
+errorCode=RDAwOTg=
+

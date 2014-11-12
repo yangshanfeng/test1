@@ -1,0 +1,10 @@
+E:\nc\NcWeb\NCHelper\bin\Debug\NCHelper.dll
+E:\nc\NcWeb\NCHelper\bin\Debug\NCHelper.pdb
+E:\nc\NcWeb\NCHelper\obj\Debug\NCHelper.dll
+E:\nc\NcWeb\NCHelper\obj\Debug\NCHelper.pdb
+E:\nc\NcWeb\NCHelper\obj\Debug\NCHelper.csprojResolveAssemblyReference.cache
+F:\NcWeb\NCHelper\bin\Debug\NCHelper.dll
+F:\NcWeb\NCHelper\bin\Debug\NCHelper.pdb
+F:\NcWeb\NCHelper\obj\Debug\NCHelper.csprojResolveAssemblyReference.cache
+F:\NcWeb\NCHelper\obj\Debug\NCHelper.dll
+F:\NcWeb\NCHelper\obj\Debug\NCHelper.pdb

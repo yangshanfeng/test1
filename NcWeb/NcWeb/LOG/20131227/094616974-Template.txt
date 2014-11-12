@@ -1,0 +1,167 @@
+20131227094616974发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227094616960&SendTime=20131227094616961
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227094616960&Cert=&reqData=<?xml version="1.0" encoding = "gbk"?>
+	<CMS>
+		<eb>
+			<pub>
+				<TransCode>PAYENT</TransCode>
+				<CIS>140890000472038</CIS>
+				<BankCode>102</BankCode>
+				<ID>jmwtest.y.1408</ID>	
+				<TranDate>20131227</TranDate>
+				<TranTime>094616960</TranTime>
+				<fSeqno>20131227094616960</fSeqno>
+			</pub>
+			<in>
+				<OnlBatF>1</OnlBatF>
+				<SettleMode>0</SettleMode>
+				<TotalNum>1</TotalNum>
+                <TotalAmt>5000</TotalAmt>
+                <SignTime>20131227094616961</SignTime>
+                <ReqReserved1></ReqReserved1>
+                <ReqReserved2></ReqReserved2>	
+				<rd>
+					<iSeqno>1</iSeqno>
+					<ReimburseNo></ReimburseNo>
+					<ReimburseNum></ReimburseNum>
+					<StartDate></StartDate>
+					<StartTime></StartTime>
+                    <PayType>1</PayType>
+					<PayAccNo>1408010919007004567</PayAccNo>
+					<PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN>
+					<PayAccNameEN></PayAccNameEN>
+					<RecAccNo>0200000519024549712</RecAccNo>
+					<RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN>
+					<RecAccNameEN></RecAccNameEN>
+                    <SysIOFlg>1</SysIOFlg>
+                    <IsSameCity>1</IsSameCity>
+                    <Prop></Prop>
+                    <RecICBCCode></RecICBCCode>
+                    <RecCityName></RecCityName>
+					<RecBankNo></RecBankNo>
+                    <RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName>
+					<CurrType>001</CurrType>
+					<PayAmt>5000</PayAmt>
+					<UseCode></UseCode>
+					<UseCN></UseCN>
+                    <EnSummary></EnSummary>
+					<PostScript></PostScript>	
+					<Summary></Summary>
+					<Ref></Ref>
+					<Oref></Oref>
+					<ERPSqn></ERPSqn>
+					<BusCode></BusCode>
+					<ERPcheckno></ERPcheckno>
+					<CrvouhType></CrvouhType>
+					<CrvouhName></CrvouhName>
+	                <CrvouhNo></CrvouhNo>	
+                    <ReqReserved3></ReqReserved3>
+                    <ReqReserved4></ReqReserved4>	
+				</rd>
+			</in>
+		</eb>
+</CMS>
+
+
+20131227094616974银行返回内容：
+reqData=PD94bWwgIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IkdCSyIgPz4KPENNUz4KPGViPgo8cHViPgo8
+VHJhbnNDb2RlPlBBWUVOVDwvVHJhbnNDb2RlPgo8Q0lTPjE0MDg5MDAwMDQ3MjAzODwvQ0lTPgo8
+QmFua0NvZGU+MTAyPC9CYW5rQ29kZT4KPElEPmptd3Rlc3QueS4xNDA4PC9JRD4KPFRyYW5EYXRl
+PjIwMTMxMjI3PC9UcmFuRGF0ZT4KPFRyYW5UaW1lPjA5NDYxNjk2MDwvVHJhblRpbWU+CjxmU2Vx
+bm8+MjAxMzEyMjcwOTQ2MTY5NjA8L2ZTZXFubz4KPFNlcmlhbE5vPkNNTTM5NjczNjg4OTwvU2Vy
+aWFsTm8+CjxSZXRDb2RlPjA8L1JldENvZGU+CjxSZXRNc2c+s8m5pjwvUmV0TXNnPgo8L3B1Yj4K
+PG91dD4KPE9ubEJhdEY+MTwvT25sQmF0Rj4KPFNldHRsZU1vZGU+MDwvU2V0dGxlTW9kZT4KPFRv
+dGFsTnVtPjE8L1RvdGFsTnVtPgo8VG90YWxBbXQ+NTAwMDwvVG90YWxBbXQ+CjxSZXBSZXNlcnZl
+ZDE+PC9SZXBSZXNlcnZlZDE+CjxSZXBSZXNlcnZlZDI+PC9SZXBSZXNlcnZlZDI+CjxyZD4KPGlT
+ZXFubz4xPC9pU2Vxbm8+CjxPcmRlck5vPjE8L09yZGVyTm8+CjxSZWltYnVyc2VObz48L1JlaW1i
+dXJzZU5vPgo8UmVpbWJ1cnNlTnVtPjwvUmVpbWJ1cnNlTnVtPgo8U3RhcnREYXRlPjwvU3RhcnRE
+YXRlPgo8U3RhcnRUaW1lPjwvU3RhcnRUaW1lPgo8UGF5VHlwZT4xPC9QYXlUeXBlPgo8UGF5QWNj
+Tm8+MTQwODAxMDkxOTAwNzAwNDU2NzwvUGF5QWNjTm8+CjxQYXlBY2NOYW1lQ04+1LzAp9bktMWx
+yM3At8jM/caoPC9QYXlBY2NOYW1lQ04+CjxQYXlBY2NOYW1lRU4+PC9QYXlBY2NOYW1lRU4+CjxS
+ZWNBY2NObz4wMjAwMDAwNTE5MDI0NTQ5NzEyPC9SZWNBY2NObz4KPFJlY0FjY05hbWVDTj7UvMCn
+1uS0xbHIzcC3yMz9xqi4tN/VtqbM/caoPC9SZWNBY2NOYW1lQ04+CjxSZWNBY2NOYW1lRU4+PC9S
+ZWNBY2NOYW1lRU4+CjxTeXNJT0ZsZz4xPC9TeXNJT0ZsZz4KPElzU2FtZUNpdHk+MjwvSXNTYW1l
+Q2l0eT4KPFByb3A+MDwvUHJvcD4KPFJlY0lDQkNDb2RlPjAyMDA8L1JlY0lDQkNDb2RlPgo8UmVj
+Q2l0eU5hbWU+PC9SZWNDaXR5TmFtZT4KPFJlY0JhbmtObz48L1JlY0JhbmtObz4KPFJlY0JhbmtO
+YW1lPtbQufq5pMnM0vjQ0DwvUmVjQmFua05hbWU+CjxDdXJyVHlwZT4wMDE8L0N1cnJUeXBlPgo8
+UGF5QW10PjUwMDA8L1BheUFtdD4KPFVzZUNvZGU+PC9Vc2VDb2RlPgo8VXNlQ04+PC9Vc2VDTj4K
+PEVuU3VtbWFyeT48L0VuU3VtbWFyeT4KPFBvc3RTY3JpcHQ+PC9Qb3N0U2NyaXB0Pgo8U3VtbWFy
+eT48L1N1bW1hcnk+CjxSZWY+PC9SZWY+CjxPcmVmPjwvT3JlZj4KPEVSUFNxbj48L0VSUFNxbj4K
+PEJ1c0NvZGU+PC9CdXNDb2RlPgo8RVJQY2hlY2tubz48L0VSUGNoZWNrbm8+CjxDcnZvdWhUeXBl
+PjwvQ3J2b3VoVHlwZT4KPENydm91aE5hbWU+PC9DcnZvdWhOYW1lPgo8Q3J2b3VoTm8+PC9DcnZv
+dWhObz4KPFJlc3VsdD43PC9SZXN1bHQ+CjxpUmV0Q29kZT4wPC9pUmV0Q29kZT4KPGlSZXRNc2c+
+s8m5pjwvaVJldE1zZz4KPFJlcFJlc2VydmVkMz48L1JlcFJlc2VydmVkMz4KPFJlcFJlc2VydmVk
+ND48L1JlcFJlc2VydmVkND4KPC9yZD4KPC9vdXQ+CjwvZWI+CjwvQ01TPgo=
+
+银行返回内容明文：
+<?xml  version="1.0" encoding="GBK" ?>
+<CMS>
+<eb>
+<pub>
+<TransCode>PAYENT</TransCode>
+<CIS>140890000472038</CIS>
+<BankCode>102</BankCode>
+<ID>jmwtest.y.1408</ID>
+<TranDate>20131227</TranDate>
+<TranTime>094616960</TranTime>
+<fSeqno>20131227094616960</fSeqno>
+<SerialNo>CMM396736889</SerialNo>
+<RetCode>0</RetCode>
+<RetMsg>成功</RetMsg>
+</pub>
+<out>
+<OnlBatF>1</OnlBatF>
+<SettleMode>0</SettleMode>
+<TotalNum>1</TotalNum>
+<TotalAmt>5000</TotalAmt>
+<RepReserved1></RepReserved1>
+<RepReserved2></RepReserved2>
+<rd>
+<iSeqno>1</iSeqno>
+<OrderNo>1</OrderNo>
+<ReimburseNo></ReimburseNo>
+<ReimburseNum></ReimburseNum>
+<StartDate></StartDate>
+<StartTime></StartTime>
+<PayType>1</PayType>
+<PayAccNo>1408010919007004567</PayAccNo>
+<PayAccNameCN>约困咒磁比屠啡听屁</PayAccNameCN>
+<PayAccNameEN></PayAccNameEN>
+<RecAccNo>0200000519024549712</RecAccNo>
+<RecAccNameCN>约困咒磁比屠啡听屁复哒鼎听屁</RecAccNameCN>
+<RecAccNameEN></RecAccNameEN>
+<SysIOFlg>1</SysIOFlg>
+<IsSameCity>2</IsSameCity>
+<Prop>0</Prop>
+<RecICBCCode>0200</RecICBCCode>
+<RecCityName></RecCityName>
+<RecBankNo></RecBankNo>
+<RecBankName>中国工商银行</RecBankName>
+<CurrType>001</CurrType>
+<PayAmt>5000</PayAmt>
+<UseCode></UseCode>
+<UseCN></UseCN>
+<EnSummary></EnSummary>
+<PostScript></PostScript>
+<Summary></Summary>
+<Ref></Ref>
+<Oref></Oref>
+<ERPSqn></ERPSqn>
+<BusCode></BusCode>
+<ERPcheckno></ERPcheckno>
+<CrvouhType></CrvouhType>
+<CrvouhName></CrvouhName>
+<CrvouhNo></CrvouhNo>
+<Result>7</Result>
+<iRetCode>0</iRetCode>
+<iRetMsg>成功</iRetMsg>
+<RepReserved3></RepReserved3>
+<RepReserved4></RepReserved4>
+</rd>
+</out>
+</eb>
+</CMS>
+
+

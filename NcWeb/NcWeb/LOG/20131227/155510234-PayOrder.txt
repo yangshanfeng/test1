@@ -1,0 +1,133 @@
+20131227155510234发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227155509739&SendTime=20131227155510234
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227155509739&Cert=&reqData=<?xml version="1.0" encoding="gb2312"?>
+<CMS>
+  <eb>
+    <pub>
+      <TransCode>PAYENT</TransCode>
+      <CIS>140890000472038</CIS>
+      <BankCode>102</BankCode>
+      <ID>jmwtest.y.1408</ID>
+      <TranDate>20131227</TranDate>
+      <TranTime>155509743</TranTime>
+      <fSeqno>20131227155509739</fSeqno>
+    </pub>
+    <in>
+      <OnlBatF>1</OnlBatF>
+      <SettleMode>0</SettleMode>
+      <TotalNum>2</TotalNum>
+      <TotalAmt>13000</TotalAmt>
+      <SignTime>20131227155509743</SignTime>
+      <ReqReserved1 />
+      <ReqReserved2 />
+      <rd>
+        <iSeqno>1</iSeqno>
+        <ReimburseNo />
+        <ReimburseNum />
+        <StartDate />
+        <StartTime />
+        <PayType>1</PayType>
+        <PayAccNo>1408010919007004567</PayAccNo>
+        <PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN>
+        <PayAccNameEN />
+        <RecAccNo>0200000519024549712</RecAccNo>
+        <RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN>
+        <RecAccNameEN />
+        <SysIOFlg>1</SysIOFlg>
+        <IsSameCity>1</IsSameCity>
+        <Prop />
+        <RecICBCCode />
+        <RecCityName />
+        <RecBankNo />
+        <RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName>
+        <CurrType>001</CurrType>
+        <PayAmt>5000</PayAmt>
+        <UseCode />
+        <UseCN />
+        <EnSummary />
+        <PostScript />
+        <Summary />
+        <Ref />
+        <Oref />
+        <ERPSqn />
+        <BusCode />
+        <ERPcheckno />
+        <CrvouhType />
+        <CrvouhName />
+        <CrvouhNo />
+        <ReqReserved3 />
+        <ReqReserved4 />
+      </rd>
+      <rd>
+        <iSeqno>2</iSeqno>
+        <ReimburseNo />
+        <ReimburseNum />
+        <StartDate />
+        <StartTime />
+        <PayType>1</PayType>
+        <PayAccNo>1408010919007004567</PayAccNo>
+        <PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN>
+        <PayAccNameEN />
+        <RecAccNo>0200000519024549712</RecAccNo>
+        <RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN>
+        <RecAccNameEN />
+        <SysIOFlg>1</SysIOFlg>
+        <IsSameCity>1</IsSameCity>
+        <Prop />
+        <RecICBCCode />
+        <RecCityName />
+        <RecBankNo />
+        <RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName>
+        <CurrType>001</CurrType>
+        <PayAmt>8000</PayAmt>
+        <UseCode />
+        <UseCN />
+        <EnSummary />
+        <PostScript />
+        <Summary />
+        <Ref />
+        <Oref />
+        <ERPSqn />
+        <BusCode />
+        <ERPcheckno />
+        <CrvouhType />
+        <CrvouhName />
+        <CrvouhNo />
+        <ReqReserved3 />
+        <ReqReserved4 />
+      </rd>
+    </in>
+  </eb>
+</CMS>
+
+20131227155510234银行返回内容：
+reqData=PD94bWwgIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IkdCSyIgPz4KPENNUz4KPGViPgo8cHViPgo8
+VHJhbnNDb2RlPlBBWUVOVDwvVHJhbnNDb2RlPgo8Q0lTPjE0MDg5MDAwMDQ3MjAzODwvQ0lTPgo8
+QmFua0NvZGU+MTAyPC9CYW5rQ29kZT4KPElEPmptd3Rlc3QueS4xNDA4PC9JRD4KPFRyYW5EYXRl
+PjIwMTMxMjI3PC9UcmFuRGF0ZT4KPFRyYW5UaW1lPjE1NTUwOTc0MzwvVHJhblRpbWU+CjxmU2Vx
+bm8+MjAxMzEyMjcxNTU1MDk3Mzk8L2ZTZXFubz4KPFNlcmlhbE5vPkNNTTM5Njc0NjkwMjwvU2Vy
+aWFsTm8+CjxSZXRDb2RlPjA8L1JldENvZGU+CjxSZXRNc2c+PC9SZXRNc2c+CjwvcHViPgo8L2Vi
+Pgo8L0NNUz4K
+
+银行返回内容明文：
+<?xml  version="1.0" encoding="GBK" ?>
+<CMS>
+<eb>
+<pub>
+<TransCode>PAYENT</TransCode>
+<CIS>140890000472038</CIS>
+<BankCode>102</BankCode>
+<ID>jmwtest.y.1408</ID>
+<TranDate>20131227</TranDate>
+<TranTime>155509743</TranTime>
+<fSeqno>20131227155509739</fSeqno>
+<SerialNo>CMM396746902</SerialNo>
+<RetCode>0</RetCode>
+<RetMsg></RetMsg>
+</pub>
+</eb>
+</CMS>
+
+

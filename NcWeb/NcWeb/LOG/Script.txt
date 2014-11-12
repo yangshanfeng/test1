@@ -1,0 +1,7 @@
+Template
+TransCode|PAYENT
+CIS|140890000472038
+BankCode|102
+ID|jmwtest.y.1408
+fSeqno|20131228150729033
+Ordertype|1

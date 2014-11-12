@@ -1,0 +1,105 @@
+20131227142724920发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227142626728&SendTime=20131227142724920
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227142626728&Cert=&reqData=<?xml version="1.0" encoding="gb2312"?>
+<CMS>
+  <eb>
+    <pub>
+      <TransCode>PAYENT</TransCode>
+      <CIS>140890000472038</CIS>
+      <BankCode>102</BankCode>
+      <ID>jmwtest.y.1408</ID>
+      <TranDate>20131227</TranDate>
+      <TranTime>142626735</TranTime>
+      <fSeqno>20131227142626728</fSeqno>
+    </pub>
+    <in>
+      <OnlBatF>1</OnlBatF>
+      <SettleMode>0</SettleMode>
+      <TotalNum>1</TotalNum>
+      <TotalAmt>5000</TotalAmt>
+      <SignTime>20131227142626731</SignTime>
+      <ReqReserved1 />
+      <ReqReserved2 />
+      <rd>
+        <iSeqno>1</iSeqno>
+        <ReimburseNo />
+        <ReimburseNum />
+        <StartDate />
+        <StartTime />
+        <PayType>1</PayType>
+        <PayAccNo>1408010919007004567</PayAccNo>
+        <PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN>
+        <PayAccNameEN />
+        <RecAccNo>0200000519024549712</RecAccNo>
+        <RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN>
+        <RecAccNameEN />
+        <SysIOFlg>1</SysIOFlg>
+        <IsSameCity>1</IsSameCity>
+        <Prop />
+        <RecICBCCode />
+        <RecCityName />
+        <RecBankNo />
+        <RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName>
+        <CurrType>001</CurrType>
+        <PayAmt>5000</PayAmt>
+        <EnSummary />
+        <PostScript />
+        <Summary />
+        <Ref />
+        <Oref />
+        <ERPSqn />
+        <BusCode />
+        <ERPcheckno />
+        <CrvouhType />
+        <CrvouhName />
+        <CrvouhNo />
+        <ReqReserved3 />
+        <ReqReserved4 />
+      </rd>
+    </in>
+  </eb>
+</CMS>
+
+20131227142724920银行返回内容：
+reqData=PD94bWwgIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IkdCSyIgPz4KPENNUz4KPGViPgo8cHViPgo8
+VHJhbnNDb2RlPlBBWUVOVDwvVHJhbnNDb2RlPgo8Q0lTPjE0MDg5MDAwMDQ3MjAzODwvQ0lTPgo8
+QmFua0NvZGU+MTAyPC9CYW5rQ29kZT4KPElEPmptd3Rlc3QueS4xNDA4PC9JRD4KPFRyYW5EYXRl
+PjIwMTMxMjI3PC9UcmFuRGF0ZT4KPFRyYW5UaW1lPjE0MjYyNjczNTwvVHJhblRpbWU+CjxmU2Vx
+bm8+MjAxMzEyMjcxNDI2MjY3Mjg8L2ZTZXFubz4KPFNlcmlhbE5vPjwvU2VyaWFsTm8+CjxSZXRD
+b2RlPkQwMDg5PC9SZXRDb2RlPgo8UmV0TXNnPnhtbL3isPy07c7zIUZhaWxlZCB0byB1bmZvcm1h
+dCBkYXRhIQpUYWduYW1lPVVzZUNvZGUKSW5wdXQ9Jmx0O0VuU3VtbWFyeSZndDsmbHQ7L0VuU3Vt
+bWFyeSZndDsgICAgICAgICZsdDtQb3N0U2NyaXB0Jmd0OyZsdDsvUG9zdFNjcmlwdCZndDsgICAg
+ICAgICZsdDtTdW1tYXJ5Jmd0OyZsdDsvU3VtbWFyeSZndDsgICAgICAgICZsdDtSZWYmZ3Q7Jmx0
+Oy9SZWYmZ3Q7ICAgICAgICAmbHQ7T3JlZiZndDsmbHQ7L09yZWYmZ3Q7ICAgICAgICAmbHQ7RVJQ
+U3FuJmd0OyZsdDsvRVJQU3FuJmd0OyAgICAgICAgJmx0O0J1c0NvZGUmZ3Q7Jmx0Oy9CdXNDb2Rl
+Jmd0OyAgICAgICAgJmx0O0VSUGNoZWNrbm8mZ3Q7Jmx0Oy9FUlBjaGVja25vJmd0OyAgICAgICAg
+Jmx0O0Nydm91aFR5cGUmZ3Q7Jmx0Oy9DcnZvdWhUeXBlJmd0OyAgICAgICAgJmx0O0Nydm91aE5h
+bWUmZ3Q7Jmx0Oy9DcnZvdWhOYW1lJmd0OyAgICAgICAgJmx0O0Nydm91aE5vJmd0OyZsdDsvQ3J2
+b3VoTm8mZ3Q7ICAgICAgICAmbHQ7UmVxUmVzZXJ2ZWQzJmd0OyZsdDsvUmVxUmVzZXJ2ZWQzJmd0
+OyAgICAgICAgJmx0O1JlcVJlc2VydmVkNCZndDsmbHQ7L1JlcVJlc2VydmVkNCZndDsgICAgICAm
+bHQ7L3JkJmd0OzwvUmV0TXNnPgo8L3B1Yj4KPC9lYj4KPC9DTVM+Cg==
+
+银行返回内容明文：
+<?xml  version="1.0" encoding="GBK" ?>
+<CMS>
+<eb>
+<pub>
+<TransCode>PAYENT</TransCode>
+<CIS>140890000472038</CIS>
+<BankCode>102</BankCode>
+<ID>jmwtest.y.1408</ID>
+<TranDate>20131227</TranDate>
+<TranTime>142626735</TranTime>
+<fSeqno>20131227142626728</fSeqno>
+<SerialNo></SerialNo>
+<RetCode>D0089</RetCode>
+<RetMsg>xml解包错误!Failed to unformat data!
+Tagname=UseCode
+Input=&lt;EnSummary&gt;&lt;/EnSummary&gt;        &lt;PostScript&gt;&lt;/PostScript&gt;        &lt;Summary&gt;&lt;/Summary&gt;        &lt;Ref&gt;&lt;/Ref&gt;        &lt;Oref&gt;&lt;/Oref&gt;        &lt;ERPSqn&gt;&lt;/ERPSqn&gt;        &lt;BusCode&gt;&lt;/BusCode&gt;        &lt;ERPcheckno&gt;&lt;/ERPcheckno&gt;        &lt;CrvouhType&gt;&lt;/CrvouhType&gt;        &lt;CrvouhName&gt;&lt;/CrvouhName&gt;        &lt;CrvouhNo&gt;&lt;/CrvouhNo&gt;        &lt;ReqReserved3&gt;&lt;/ReqReserved3&gt;        &lt;ReqReserved4&gt;&lt;/ReqReserved4&gt;      &lt;/rd&gt;</RetMsg>
+</pub>
+</eb>
+</CMS>
+
+

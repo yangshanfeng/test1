@@ -1,0 +1,107 @@
+20131227142250986发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227142218531&SendTime=20131227142249406
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227142218531&Cert=&reqData=<?xml version="1.0" encoding="gb2312"?>
+<CMS>
+  <eb>
+    <pub>
+      <TransCode>PAYENT</TransCode>
+      <CIS>140890000472038</CIS>
+      <BankCode>102</BankCode>
+      <ID>jmwtest.y.1408</ID>
+      <TranDate>20131227</TranDate>
+      <TranTime>142218537</TranTime>
+      <fSeqno>20131227142218531</fSeqno>
+    </pub>
+    <in>
+      <OnlBatF>1</OnlBatF>
+      <SettleMode>0</SettleMode>
+      <TotalNum>1</TotalNum>
+      <TotalAmt>5000</TotalAmt>
+      <SignTime>20131227142218534</SignTime>
+      <ReqReserved1 />
+      <ReqReserved2 />
+      <rd>
+        <iSeqno>1</iSeqno>
+        <ReimburseNo />
+        <ReimburseNum />
+        <StartDate />
+        <StartTime />
+        <PayType>1</PayType>
+        <PayAccNo>1408010919007004567</PayAccNo>
+        <PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN>
+        <PayAccNameEN />
+        <RecAccNo>0200000519024549712</RecAccNo>
+        <RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN>
+        <RecAccNameEN />
+        <SysIOFlg>1</SysIOFlg>
+        <IsSameCity>1</IsSameCity>
+        <Prop />
+        <RecICBCCode />
+        <RecCityName />
+        <RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName>
+        <CurrType>001</CurrType>
+        <PayAmt>5000</PayAmt>
+        <EnSummary />
+        <PostScript />
+        <Summary />
+        <Ref />
+        <Oref />
+        <ERPSqn />
+        <BusCode />
+        <ERPcheckno />
+        <CrvouhType />
+        <CrvouhName />
+        <CrvouhNo />
+        <ReqReserved3 />
+        <ReqReserved4 />
+      </rd>
+    </in>
+  </eb>
+</CMS>
+
+20131227142250986银行返回内容：
+reqData=PD94bWwgIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IkdCSyIgPz4KPENNUz4KPGViPgo8cHViPgo8
+VHJhbnNDb2RlPlBBWUVOVDwvVHJhbnNDb2RlPgo8Q0lTPjE0MDg5MDAwMDQ3MjAzODwvQ0lTPgo8
+QmFua0NvZGU+MTAyPC9CYW5rQ29kZT4KPElEPmptd3Rlc3QueS4xNDA4PC9JRD4KPFRyYW5EYXRl
+PjIwMTMxMjI3PC9UcmFuRGF0ZT4KPFRyYW5UaW1lPjE0MjIxODUzNzwvVHJhblRpbWU+CjxmU2Vx
+bm8+MjAxMzEyMjcxNDIyMTg1MzE8L2ZTZXFubz4KPFNlcmlhbE5vPjwvU2VyaWFsTm8+CjxSZXRD
+b2RlPkQwMDg5PC9SZXRDb2RlPgo8UmV0TXNnPnhtbL3isPy07c7zIUZhaWxlZCB0byB1bmZvcm1h
+dCBkYXRhIQpUYWduYW1lPVJlY0JhbmtObwpJbnB1dD0mbHQ7UmVjQmFua05hbWUmZ3Q71tC5+rmk
+yczS+NDQJmx0Oy9SZWNCYW5rTmFtZSZndDsgICAgICAgICZsdDtDdXJyVHlwZSZndDswMDEmbHQ7
+L0N1cnJUeXBlJmd0OyAgICAgICAgJmx0O1BheUFtdCZndDs1MDAwJmx0Oy9QYXlBbXQmZ3Q7ICAg
+ICAgICAmbHQ7RW5TdW1tYXJ5Jmd0OyZsdDsvRW5TdW1tYXJ5Jmd0OyAgICAgICAgJmx0O1Bvc3RT
+Y3JpcHQmZ3Q7Jmx0Oy9Qb3N0U2NyaXB0Jmd0OyAgICAgICAgJmx0O1N1bW1hcnkmZ3Q7Jmx0Oy9T
+dW1tYXJ5Jmd0OyAgICAgICAgJmx0O1JlZiZndDsmbHQ7L1JlZiZndDsgICAgICAgICZsdDtPcmVm
+Jmd0OyZsdDsvT3JlZiZndDsgICAgICAgICZsdDtFUlBTcW4mZ3Q7Jmx0Oy9FUlBTcW4mZ3Q7ICAg
+ICAgICAmbHQ7QnVzQ29kZSZndDsmbHQ7L0J1c0NvZGUmZ3Q7ICAgICAgICAmbHQ7RVJQY2hlY2tu
+byZndDsmbHQ7L0VSUGNoZWNrbm8mZ3Q7ICAgICAgICAmbHQ7Q3J2b3VoVHlwZSZndDsmbHQ7L0Ny
+dm91aFR5cGUmZ3Q7ICAgICAgICAmbHQ7Q3J2b3VoTmFtZSZndDsmbHQ7L0Nydm91aE5hbWUmZ3Q7
+ICAgICAgICAmbHQ7Q3J2b3VoTm8mZ3Q7Jmx0Oy9DcnZvdWhObyZndDsgICAgICAgICZsdDtSZXFS
+ZXNlcnZlZDMmZ3Q7Jmx0Oy9SZXFSZXNlcnZlZDMmZ3Q7ICAgICAgICAmbHQ7UmVxUmVzZXJ2ZWQ0
+Jmd0OyZsdDsvUmVxUmVzZXJ2ZWQ0Jmd0OyAgICAgICZsdDsvcmQmZ3Q7PC9SZXRNc2c+CjwvcHVi
+Pgo8L2ViPgo8L0NNUz4K
+
+银行返回内容明文：
+<?xml  version="1.0" encoding="GBK" ?>
+<CMS>
+<eb>
+<pub>
+<TransCode>PAYENT</TransCode>
+<CIS>140890000472038</CIS>
+<BankCode>102</BankCode>
+<ID>jmwtest.y.1408</ID>
+<TranDate>20131227</TranDate>
+<TranTime>142218537</TranTime>
+<fSeqno>20131227142218531</fSeqno>
+<SerialNo></SerialNo>
+<RetCode>D0089</RetCode>
+<RetMsg>xml解包错误!Failed to unformat data!
+Tagname=RecBankNo
+Input=&lt;RecBankName&gt;中国工商银行&lt;/RecBankName&gt;        &lt;CurrType&gt;001&lt;/CurrType&gt;        &lt;PayAmt&gt;5000&lt;/PayAmt&gt;        &lt;EnSummary&gt;&lt;/EnSummary&gt;        &lt;PostScript&gt;&lt;/PostScript&gt;        &lt;Summary&gt;&lt;/Summary&gt;        &lt;Ref&gt;&lt;/Ref&gt;        &lt;Oref&gt;&lt;/Oref&gt;        &lt;ERPSqn&gt;&lt;/ERPSqn&gt;        &lt;BusCode&gt;&lt;/BusCode&gt;        &lt;ERPcheckno&gt;&lt;/ERPcheckno&gt;        &lt;CrvouhType&gt;&lt;/CrvouhType&gt;        &lt;CrvouhName&gt;&lt;/CrvouhName&gt;        &lt;CrvouhNo&gt;&lt;/CrvouhNo&gt;        &lt;ReqReserved3&gt;&lt;/ReqReserved3&gt;        &lt;ReqReserved4&gt;&lt;/ReqReserved4&gt;      &lt;/rd&gt;</RetMsg>
+</pub>
+</eb>
+</CMS>
+
+

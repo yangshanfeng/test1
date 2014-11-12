@@ -1,0 +1,97 @@
+20131227111306471发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227111240451&SendTime=20131227111240456
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227111240451&Cert=&reqData=<?xml version="1.0" encoding = "gbk"?>
+	<CMS>
+		<eb>
+			<pub>
+				<TransCode>PAYENT</TransCode>
+				<CIS>140890000472038</CIS>
+				<BankCode>102</BankCode>
+				<ID>jmwtest.y.1408</ID>	
+				<TranDate>20131227</TranDate>
+				<TranTime>111240456</TranTime>
+				<fSeqno>20131227111240451</fSeqno>
+			</pub>
+			<in>
+				<OnlBatF>1</OnlBatF>
+				<SettleMode>0</SettleMode>
+				<TotalNum>1</TotalNum>
+                <TotalAmt>5000</TotalAmt>
+                <SignTime>20131227111240456</SignTime>
+                <ReqReserved1></ReqReserved1>
+                <ReqReserved2></ReqReserved2>	
+				<rd>
+					<iSeqno>指令顺序号</iSeqno>
+					<ReimburseNo>自定义序号</ReimburseNo>
+					<ReimburseNum>单据张数</ReimburseNum>
+					<StartDate>定时启动日期</StartDate>
+					<StartTime>定时启动时间</StartTime>
+                    <PayType>记账处理方式</PayType>
+					<PayAccNo>本方账号</PayAccNo>
+					<PayAccNameCN>本方账户名称</PayAccNameCN>
+					<PayAccNameEN>本方账户英文名称</PayAccNameEN>
+					<RecAccNo>对方账号</RecAccNo>
+					<RecAccNameCN>对方账户名称</RecAccNameCN>
+					<RecAccNameEN>对方账户英文名称</RecAccNameEN>
+                    <SysIOFlg>系统内外标志</SysIOFlg>
+                    <IsSameCity>同城异地标志</IsSameCity>
+                    <Prop>对公对私标志</Prop>
+                    <RecICBCCode>交易对方工行地区号</RecICBCCode>
+                    <RecCityName>收款方所在城市名称</RecCityName>
+					<RecBankNo>对方行行号</RecBankNo>
+                    <RecBankName>交易对方银行名称</RecBankName>
+					<CurrType>币种</CurrType>
+					<PayAmt>金额</PayAmt>
+					<UseCode>用途代码</UseCode>
+					<UseCN>用途中文描述</UseCN>
+                    <EnSummary>英文备注</EnSummary>
+					<PostScript>附言</PostScript>	
+					<Summary>摘要</Summary>
+					<Ref>业务编号（业务参考号）</Ref>
+					<Oref>相关业务编号</Oref>
+					<ERPSqn>ERP流水号</ERPSqn>
+					<BusCode>业务代码</BusCode>
+					<ERPcheckno>ERP支票号</ERPcheckno>
+					<CrvouhType>原始凭证种类</CrvouhType>
+					<CrvouhName>原始凭证名称</CrvouhName>
+	                <CrvouhNo>原始凭证号</CrvouhNo>	
+                    <ReqReserved3>请求备用字段3</ReqReserved3>
+                    <ReqReserved4>请求备用字段4</ReqReserved4>	
+				</rd>
+			</in>
+		</eb>
+</CMS>
+
+
+20131227111306471银行返回内容：
+reqData=PD94bWwgIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IkdCSyIgPz4KPENNUz4KPGViPgo8cHViPgo8
+VHJhbnNDb2RlPlBBWUVOVDwvVHJhbnNDb2RlPgo8Q0lTPjE0MDg5MDAwMDQ3MjAzODwvQ0lTPgo8
+QmFua0NvZGU+MTAyPC9CYW5rQ29kZT4KPElEPmptd3Rlc3QueS4xNDA4PC9JRD4KPFRyYW5EYXRl
+PjIwMTMxMjI3PC9UcmFuRGF0ZT4KPFRyYW5UaW1lPjExMTI0MDQ1NjwvVHJhblRpbWU+CjxmU2Vx
+bm8+MjAxMzEyMjcxMTEyNDA0NTE8L2ZTZXFubz4KPFNlcmlhbE5vPjwvU2VyaWFsTm8+CjxSZXRD
+b2RlPkQwMDg5PC9SZXRDb2RlPgo8UmV0TXNnPnhtbL3isPy07c7zIVRoZSBsZW5ndGggaXMgb3V0
+IG9mIHJhbmdlLCZsdDtQYXlUeXBlJmd0Oz8/Pz8/PyZsdDsvUGF5VHlwZSZndDs8L1JldE1zZz4K
+PC9wdWI+CjwvZWI+CjwvQ01TPgo=
+
+银行返回内容明文：
+<?xml  version="1.0" encoding="GBK" ?>
+<CMS>
+<eb>
+<pub>
+<TransCode>PAYENT</TransCode>
+<CIS>140890000472038</CIS>
+<BankCode>102</BankCode>
+<ID>jmwtest.y.1408</ID>
+<TranDate>20131227</TranDate>
+<TranTime>111240456</TranTime>
+<fSeqno>20131227111240451</fSeqno>
+<SerialNo></SerialNo>
+<RetCode>D0089</RetCode>
+<RetMsg>xml解包错误!The length is out of range,&lt;PayType&gt;??????&lt;/PayType&gt;</RetMsg>
+</pub>
+</eb>
+</CMS>
+
+

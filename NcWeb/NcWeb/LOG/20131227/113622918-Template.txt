@@ -1,0 +1,36 @@
+20131227113622918发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227113615239&SendTime=20131227113615242
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227113615239&Cert=&reqData=System.Xml.XmlDocument
+
+20131227113622918银行返回内容：
+reqData=PD94bWwgIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IkdCSyIgPz4KPENNUz4KPGViPgo8cHViPgo8
+VHJhbnNDb2RlPjwvVHJhbnNDb2RlPgo8Q0lTPjwvQ0lTPgo8QmFua0NvZGU+PC9CYW5rQ29kZT4K
+PElEPjwvSUQ+CjxUcmFuRGF0ZT48L1RyYW5EYXRlPgo8VHJhblRpbWU+PC9UcmFuVGltZT4KPGZT
+ZXFubz48L2ZTZXFubz4KPFNlcmlhbE5vPjwvU2VyaWFsTm8+CjxSZXRDb2RlPkQwMDg5PC9SZXRD
+b2RlPgo8UmV0TXNnPnhtbL3isPy07c7zIUZhaWxlZCB0byB1bmZvcm1hdCBkYXRhIQpUYWduYW1l
+PVRyYW5zQ29kZQpJbnB1dD08L1JldE1zZz4KPC9wdWI+CjwvZWI+CjwvQ01TPgo=
+
+银行返回内容明文：
+<?xml  version="1.0" encoding="GBK" ?>
+<CMS>
+<eb>
+<pub>
+<TransCode></TransCode>
+<CIS></CIS>
+<BankCode></BankCode>
+<ID></ID>
+<TranDate></TranDate>
+<TranTime></TranTime>
+<fSeqno></fSeqno>
+<SerialNo></SerialNo>
+<RetCode>D0089</RetCode>
+<RetMsg>xml解包错误!Failed to unformat data!
+Tagname=TransCode
+Input=</RetMsg>
+</pub>
+</eb>
+</CMS>
+
+

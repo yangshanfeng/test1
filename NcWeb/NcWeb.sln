@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NcWeb", "NcWeb\NcWeb.csproj", "{DABBC71F-1BD7-4188-BD45-7B109172AFB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCHelper", "NCHelper\NCHelper.csproj", "{54400455-5357-4733-819A-D419E47EA220}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DABBC71F-1BD7-4188-BD45-7B109172AFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABBC71F-1BD7-4188-BD45-7B109172AFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABBC71F-1BD7-4188-BD45-7B109172AFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABBC71F-1BD7-4188-BD45-7B109172AFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54400455-5357-4733-819A-D419E47EA220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54400455-5357-4733-819A-D419E47EA220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54400455-5357-4733-819A-D419E47EA220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54400455-5357-4733-819A-D419E47EA220}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+20131227093941975发送地址：
+http://192.168.1.139:448/servlet/ICBCCMPAPIReqServlet?userID=jmwtest.y.1408&PackageID=20131227093941942&SendTime=20131227093941942
+
+被发送内容：
+Version=0.0.0.1&TransCode=PAYENT&BankCode=102&GroupCIS=140890000472038&ID=jmwtest.y.1408&PackageID=20131227093941942&Cert=&reqData=<?xml version="1.0" encoding = "gbk"?>
+	<CMS>
+		<eb>
+			<pub>
+				<TransCode>PAYENT</TransCode>
+				<CIS>140890000472038</CIS>
+				<BankCode>102</BankCode>
+				<ID>jmwtest.y.1408</ID>	
+				<TranDate>20131227</TranDate>
+				<TranTime>093941941</TranTime>
+				<fSeqno>20131227093941942</fSeqno>
+			</pub>
+			<in>
+				<OnlBatF>1</OnlBatF>
+				<SettleMode>0</SettleMode>
+				<TotalNum>1</TotalNum>
+                <TotalAmt>5000</TotalAmt>
+                <SignTime>20131227093941942</SignTime>
+                <ReqReserved1></ReqReserved1>
+                <ReqReserved2></ReqReserved2>	
+				<rd>
+					<iSeqno>1</iSeqno>
+					<ReimburseNo></ReimburseNo>
+					<ReimburseNum></ReimburseNum>
+					<StartDate></StartDate>
+					<StartTime></StartTime>
+                    <PayType>1</PayType>
+					<PayAccNo>1408010919007004567</PayAccNo>
+					<PayAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8</PayAccNameCN>
+					<PayAccNameEN></PayAccNameEN>
+					<RecAccNo>0200000519024549712</RecAccNo>
+					<RecAccNameCN>%d4%bc%c0%a7%d6%e4%b4%c5%b1%c8%cd%c0%b7%c8%cc%fd%c6%a8%b8%b4%df%d5%b6%a6%cc%fd%c6%a8</RecAccNameCN>
+					<RecAccNameEN></RecAccNameEN>
+                    <SysIOFlg>1</SysIOFlg>
+                    <IsSameCity>1</IsSameCity>
+                    <Prop></Prop>
+                    <RecICBCCode></RecICBCCode>
+                    <RecCityName></RecCityName>
+					<RecBankNo></RecBankNo>
+                    <RecBankName>%d6%d0%b9%fa%b9%a4%c9%cc%d2%f8%d0%d0</RecBankName>
+					<CurrType>001</CurrType>
+					<PayAmt>5000</PayAmt>
+					<UseCode></UseCode>
+					<UseCN></UseCN>
+                    <EnSummary></EnSummary>
+					<PostScript></PostScript>	
+					<Summary></Summary>
+					<Ref></Ref>
+					<Oref></Oref>
+					<ERPSqn></ERPSqn>
+					<BusCode></BusCode>
+					<ERPcheckno></ERPcheckno>
+					<CrvouhType></CrvouhType>
+					<CrvouhName></CrvouhName>
+	                <CrvouhNo></CrvouhNo>	
+                    <ReqReserved3></ReqReserved3>
+                    <ReqReserved4></ReqReserved4>	
+				</rd>
+			</in>
+		</eb>
+</CMS>
+
+
